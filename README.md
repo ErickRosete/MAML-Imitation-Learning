@@ -1,6 +1,7 @@
 # MAML-Imitation-Learning
 Imitation learning using MAML in the metaworld benchmark
 
+
 ## Instructions
 
 To run this program you need a working installation of Mujoco. https://www.roboti.us/index.html
@@ -25,4 +26,7 @@ To execute testing, in this setup we fine tune the meta-trained parameters to a 
 foo@bar:~$ python test.py --use-cuda --batch-size 32 
 ```
 
+Here you can see an example of imitation when performing the test program with a previously meta-trained model.
+
+![Example test](example.gif)
 
