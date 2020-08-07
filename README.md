@@ -2,13 +2,15 @@
 Imitation learning using MAML in the metaworld benchmark
 
 
-## Instructions
+## Installation
 
 To run this program you need a working installation of Mujoco. https://www.roboti.us/index.html
 
 This program uses the metaworld environment for learning and their provided policies,
 more information of the installation in the following link: https://github.com/rlworkgroup/metaworld
 
+To facilitate training I used the pytorch-meta extension as it allows to train meta-learning algorithms in a simple manner:
+https://github.com/tristandeleu/pytorch-meta
 
 ## Program description
 
